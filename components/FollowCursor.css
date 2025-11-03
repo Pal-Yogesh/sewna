@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+:root {
+  --color-black: rgb(15, 14, 14);
+  --color-white: #fff;
+  --color-mineshaft: #393939;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', serif;
+  color: var(--color-white);
+  background: var(--color-black);
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 10vw;
+  font-weight: 800;
+  pointer-events: none;
+  transform: scale(0.7);
+  opacity: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, var(--color-white), var(--color-white) 50%, var(--color-mineshaft) 0);
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+
+.cursor-picture {
+  position: absolute;
+  opacity: 0;
+  width: 280px;
+  object-fit: contain;
+  pointer-events: none;
+  transform: scale(0.8);
+}
