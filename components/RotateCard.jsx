@@ -221,7 +221,10 @@ export default function RotateCard() {
       </div>
       <div className={styles.mdwRotatingImageContent} ref={contentRef}>
         <div>
-          <h1 className="text-6xl font-bold text-white">
+          <h1 className="text-6xl font-bold text-white"
+          style={{
+            color: 'white',
+          }}>
             I am a Designer
           </h1>
         </div>
