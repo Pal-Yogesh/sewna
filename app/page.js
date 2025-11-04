@@ -4,7 +4,10 @@ import RotateCard from "@/components/RotateCard";
 export default function Home() {
   return (
    <>
-   {/* <FollowCursor /> */}
+   <FollowCursor />
+   <div className="bg-white h-screen w-px">
+
+   </div>
    <RotateCard />
    </>
   );

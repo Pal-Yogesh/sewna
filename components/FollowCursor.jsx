@@ -97,7 +97,7 @@ const FollowCursor = () => {
 
   return (
     <div className="hero" ref={heroRef}>
-      <h1 className="title" ref={titleRef}>Studio</h1>
+      <h1 className="title" ref={titleRef}>I need a Designer</h1>
       <img className="cursor-picture" src="https://i.imgur.com/tm9LeRE.jpeg" alt="" />
       <img className="cursor-picture" src="https://i.imgur.com/bBrWFiD.jpeg" alt="" />
       <img className="cursor-picture" src="https://i.imgur.com/SJtLugE.jpeg" alt="" />
